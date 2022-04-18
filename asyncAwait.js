@@ -9,15 +9,19 @@ function fetchKrBhai(){
 
 //step 2 paste the 1st then() wala code and with fetch reqst offcourse
 
-    fetch('https://api.coinpaprika.com/v1/coins/btc-bitcoin', {})
+let respone = await  fetch('https://api.coinpaprika.com/v1/coins/btc-bitcoin', {})
 
-    .then(function(response){ //here we are accepting data from api call and storing it in respone
+//Ebb krenge modify taau
+//.then() ko krdiya saaf , pr response ko to kahi na kahi store
+//krna pdega toh response variable bnadiya , usi me h sab api ka khajana
+
+        //here we are accepting data from api call and storing it in respone
+        //function ko krdiya saaf 
         console.log('Entered Then')
-        return response.json();  // now we are just formatting data into json format
-    })
-
-
-
+        const data =  response.json();  // now we are just formatting data into json format
+        
+        console.log(data)
+     
 }
 
 
