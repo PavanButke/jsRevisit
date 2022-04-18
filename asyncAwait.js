@@ -7,7 +7,9 @@
 
 function fetchKrBhai(){
 
-    fetch('https://api.coinpaprika/v1/coins/btc-bitcoin', {})
+//step 2 paste the 1st then() wala code and with fetch reqst offcourse
+
+    fetch('https://api.coinpaprika.com/v1/coins/btc-bitcoin', {})
 
     .then(function(response){ //here we are accepting data from api call and storing it in respone
         console.log('Entered Then')
