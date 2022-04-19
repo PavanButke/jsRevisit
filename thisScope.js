@@ -13,11 +13,11 @@ function kyaKhaoge(){
 //aur uss object k basis pe call krenge function defined above
 
 let foodieMei={
-        
+        favFood:"Kachodi",
         khilao:kyaKhaoge
 }
 //step 4 krenge function call on object
 
-foodieMei.khilao(); // this will not work it'll give undefined
+foodieMei.khilao(); // it will work bCause this is now referenced from foodieMei obj
 
 // kyaKhaoge()
