@@ -1,7 +1,7 @@
 //lets learn Error handling on Promisified api calls
 
 
-fetch('https://api.coinpaprika/v1/coins/btc-bitcoin', {})
+fetch('https://api.coindesk.com/v1/bpi/currentprice.json', {})
 
 .then(function(response){ //here we are accepting data from api call and storing it in respone
     console.log('Entered Then')

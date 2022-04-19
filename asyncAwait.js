@@ -1,3 +1,7 @@
+//sbse pehle import krlo fetch ko
+import fetch from 'node-fetch'
+ globalThis.fetch = fetch
+
 //asyncawait is nothing but a syntatical sugar
 //code to khubsurat and easy to read bnane k liye
 
@@ -9,7 +13,7 @@ async function fetchKrBhai(){
 
 //step 2 paste the 1st then() wala code and with fetch reqst offcourse
 
-let respone = await  fetch('https://api.coinpaprika.com/v1/coins/btc-bitcoin', {})
+let respone = await fetch('https://api.coinpaprika.com/v1/coins/btc-bitcoin', {})
 
 //Ebb krenge modify taau
 //.then() ko krdiya saaf , pr response ko to kahi na kahi store
