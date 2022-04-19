@@ -13,7 +13,7 @@ function kyaKhaoge(){
 //aur uss object k basis pe call krenge function defined above
 
 let foodieMei={
-        favFood:"Kachodi",
+        favFood:"Chai",
         khilao:kyaKhaoge
 }
 //step 4 krenge function call on object
