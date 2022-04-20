@@ -1,6 +1,6 @@
 const pappu = {
     silence(){
-        console.log("Aapke jo "+this.designation+" wo "+this.kaam+"ka kaam karte hain")
+        console.log("Aapke jo "+this.designation+" wo "+this.kaam+" ka kaam karte hain")
     }
 }
 
@@ -16,6 +16,6 @@ function chaiWala( kaam , designation)
 chaiWala.prototype = pappu;
 
 
-const aap = new chaiWala('Kichdi wala' , 'dilli ka bijli wala')
+const aap = new chaiWala('Kichdi wale' , 'dilli ka bijli wala')
 aap.silence(); //isse kaam nhi bnega kyuki yaha pr koi connection nhi h in-b/w pappu() and chaiwala
                 // there must be connection within chaiWala() 
