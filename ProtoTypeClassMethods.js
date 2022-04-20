@@ -8,7 +8,8 @@ class dharm {
 //step1 :- let's start with creating a class
 class PM{
     constructor(kaam){
-        s
+        //step4 : to resolve the issue we have super() keyword
+        super(); // super executes the constructor function of dharm i.e. parent class
         this.work = kaam;
     }
     //step2: create a construction ; which will create objects
