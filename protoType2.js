@@ -11,6 +11,10 @@ function chaiWala( kaam , designation)
     //silence()  call yaha pr hona chahiye tha 
 }
 
+//abhi what we can do iss , we need to use prototype() method on our chaiWala function method
+
+chaiWala.prototype = pappu;
+
 
 const aap = new chaiWala('Kichdi wala' , 'dilli ka bijli wala')
 aap.silence(); //isse kaam nhi bnega kyuki yaha pr koi connection nhi h in-b/w pappu() and chaiwala
